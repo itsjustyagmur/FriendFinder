@@ -1,0 +1,25 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "Friend finder is a survey app that helps you find a new Best Friend! In this case, a BFF from one of the characters of the show SCHITTZ CREAK.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjustyagmur/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsjustyagmur/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/itsjustyagmur/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

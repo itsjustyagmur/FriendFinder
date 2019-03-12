@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <div class = "container">
+      
+    <div class="page-header">
+        <h1 ><span class="glyphicon glyphicon-fire" style="font-size: 40px; color:green;"></span> Friend Finder</h1>
+    </div>
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+        <h3 class="panel-title"><strong>Tell me about you</strong></h3>
+        </div>
+        <div class="panel-body">
+        <h4>First and Last Name</h4>
+        <div class="input-group">
+            <input id = "formName" class="form-control" type="text" name="name" >
+            <span class="input-group-addon">Add</span>
+        </div>  
+        <br>
+        <h4>Link to a Photo Image</h4>
+        <div class="input-group">
+            <input id = "formImage" class="form-control" type="text" name="name">
+            <span class="input-group-addon">Add</span>
+        </div>
+        </div>
+    </div>
+
+
+  
+    <div class="panel panel-default">
+        <div class="panel-heading">
+        <h3 class="panel-title"><strong>Lets find you a BestFriend</strong></h3>
+        <br>
+        <p> 1(Disagree) to 5-(Really trully Agreed)</p>
+        </div>
+        <div class="panel-body">
+          
+       
+        <h4 id="#question1"><strong>Question 1</strong></h4>
+        <h5>Would you say that you are the Most Extra from your friend group?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q1">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <h4 id="#question2"><strong>Question 2</strong></h4>
+        <h5>Would you consider yourself a introvert person?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q2">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+      
+        <h4 id="#question3"><strong>Question 3</strong></h4>
+        <h5>Are you usually Fashionably late?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q3">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+       
+        <h4 id="#question4"><strong>Question 4</strong></h4>
+        <h5>Would you consider yourself to be adventurous?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q4">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        
+        <h4 id="#question5"><strong>Question 5</strong></h4>
+        <h5>Will you drop everything you’re doing to help someone in need.</h5>
+        <select data-placeholder="" class="chosen-select" id="Q5">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+     
+        <h4 id="#question6"><strong>Question 6</strong></h4>
+        <h5>Do you like nature? </h5>
+        <select data-placeholder="" class="chosen-select" id="Q6">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+     
+        <h4 id="#question7"><strong>Question 7</strong></h4>
+        <h5>Do you consider yourself a spontanious person?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q7">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+   
+        <h4 id="#question8"><strong>Question 8</strong></h4>
+        <h5>Would you say you drink alcohol more than twice a week?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q8">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+
+        <h4 id="#question9"><strong>Question 9</strong></h4>
+        <h5>Do you prefer not to take things too seriously.</h5>
+        <select data-placeholder="" class="chosen-select" id="Q9">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <h4 id="#question10"><strong>Question 10</strong></h4>
+        <h5>Would you wear a different wig everyday if you had the chance?</h5>
+        <select data-placeholder="" class="chosen-select" id="Q10">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        </div>
+    </div>
+
+
+ <!--submit-->
+    <button id="submitButton" type="submit" class="btn btn-md btn-success btn-block"><h4><span class="glyphicon glyphicon-send"></span> Submit</h4></button> 
+  
+    <br>
+<!--footer-->
+    <footer class="footer">
+        <p><a href="/api/friend">API Friends List</a> | <a href="https://github.com/itsjustyagmur/friendfinder" target="_blank">GitHub Repo</a> | <a href="/">Home</a></p>
+    </footer> 
+
+
+    <!-- Modal -->
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+      
+        <div class="modal-content">
+
+        
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"></button>
+            <h2 class="modal-title"><strong>Say Hi to Your New BFF!</strong></h2>
+            </div>
+
+          
+            <div class="modal-body">
+            <h2 id="matchName"></h2>
+            <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+            </div>
+
+      
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+ <script src="https://code.jquery.com/jquery.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+   
+    <script>
+   
+   
+   $("#submitBtn").on("click", function(event) {
+    event.preventDefault();
+
+
+// Form validation
+var valid = true;
+if($("#formName").val() === "" || $("#formImage").val() === "") {
+    valid = false;
+} else if($("#question1").val() === "empty" || $("#question2").val() === "empty" ||
+ $("#question3").val() === "empty" || $("#question4").val() === "empty" ||
+ $("#question5").val() === "empty" || $("#question6").val() === "empty" ||
+ $("#question7").val() === "empty" || $("#question8").val() === "empty" ||
+ $("#question9").val() === "empty" || $("#question10").val() === "empty") {
+    valid = false;
+}
+if(valid === true) {
+    var newBFF = {
+        name: $('#formName').val().trim(),
+        photo: $('#formImage').val().trim(),
+        scores: []
+        };
+       
+        var scoresMatch = [];
+        $('.chosen-select').each(function(){
+        scoresMatch.push( parseInt( $(this).val() ) ); 
+        })
+      
+        .promise().done(function(){
+          
+      
+        newBFF.scores = scoresMatch;
+
+    }
+)}
+    var currentURL = window.location.origin;
+
+    $.post(currentURL + "/api/friends", newBFF, function(data){
+        
+        $('#matchName').text(data.name);
+        $('#matchImg').attr('src', data.photo);
+        $("#resultsModal").modal('toggle');
+    });
+        });
+
+
+        </script>
+
+    </body>
+
+</html>
